@@ -1,0 +1,39 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #747704;
+	font-weight: 300;
+}
+.test-muted {
+	color: #7d97ad;
+}
+.test-thin {
+	font-weight: 100;
+	color: #2d3c49;
+}
+
+h3{
+	color: #2d3c49;
+	font-weight: bold;
+}
+.title-super {
+	font-size: 60px;
+}
+.title-logo {
+	margin-top: 20px;
+}
+.borderBottom{
+	border-bottom: 4px solid #7d97ad;
+    padding-bottom: 20px;
+}
+.gapDivUp {
+    padding-top: 35px;
+}
+.gapDivUp1 {
+    padding-top: 30px;
+}
+
+@media only screen and (max-width: 750px) {
+    .text-right.text-uppercase {
+        text-align: left;
+    }
+}
